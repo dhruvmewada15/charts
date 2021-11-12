@@ -17,3 +17,5 @@ maintainers:
 - name: eldada
   email: eldada@jfrog.com
 icon: https://raw.githubusercontent.com/JFrogDev/artifactory-dcos/master/images/jfrog_med.png
+annotations:
+  catalog.cattle.io/rancher-version: "< 2.6.2" 
