@@ -1,4 +1,4 @@
-url: https://open-policy-agent.github.io/gatekeeper/charts/gatekeeper-3.3.0.tgz
+url: https://open-policy-agent.github.io/gatekeeper/charts/gatekeeper-3.7.0.tgz
 packageVersion: 1
 additionalCharts:
   - workingDir: charts-crd
