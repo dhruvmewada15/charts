@@ -130,3 +130,13 @@ spec:
         secret:
           defaultMode: 420
           secretName: gatekeeper-webhook-server-cert
+---
+apiVersion: config.gatekeeper.sh/v1alpha1
+kind: Config
+metadata:
+  name: config
+  namespace: '{{ .Release.Namespace }}'
+spec:
+  match:
+    - excludedNamespaces: ["kube-*", "cattle-global-data"]
+      processes: ["*"]
