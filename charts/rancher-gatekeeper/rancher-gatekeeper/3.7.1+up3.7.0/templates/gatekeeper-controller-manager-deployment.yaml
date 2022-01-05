@@ -48,10 +48,7 @@ spec:
         - --log-denies={{ .Values.logDenies }}
         - --emit-admission-events={{ .Values.emitAdmissionEvents }}
         - --log-level={{ .Values.logLevel }}
-        - --exempt-namespace={{ .Release.Namespace }}
-        - --exempt-namespace=cattle-global-data
-        - --exempt-namespace=local
-        - --exempt-namespace=fleet-local            
+        - --exempt-namespace={{ .Release.Namespace }}             
         - --operation=webhook
         - --enable-external-data={{ .Values.enableExternalData }}
         {{ if not .Values.disableMutation}}- --operation=mutation-webhook{{- end }}
