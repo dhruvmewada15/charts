@@ -47,3 +47,7 @@ rancher-windows-gmsa:
 - 1.0.0
 rancher-windows-gmsa-crd:
 - 1.0.0
+rancher-cis-benchmark:
+- 2.0.3-rc1
+rancher-cis-benchmark-crd:
+- 2.0.3-rc1
